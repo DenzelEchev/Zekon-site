@@ -8,17 +8,125 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>Astro</title>
+    <title>Zekon LLC General Contractors</title>
   </head>
-  <body>
-    <main
-      class="h-screen bg-purple-700 flex justify-center items-start flex-wrap"
-    >
-      <div class="flex w-full justify-center flex-wrap pt-16">
-        <h1 class="text-white text-8xl font-sans font-extrabold">Zekon</h1>
+  <body class="bg-gradient-to-b from-purple-700 via-gray-600 to-black">
+    <main class="h-full flex flex-col p-2">
+      <div class="flex w-full justify-center flex-wrap items-center py-10">
+        <h1 class="text-white text-8xl font-extrabold">Zekon</h1>
         <p class="text-white font-bold">LLC</p>
-        <p class="w-full text-center font-bold text-xl">General Contractor</p>
+        <p class="w-full text-center font-bold text-xl text-white">
+          General Contractors
+        </p>
+        <div
+          class="mt-6 overflow-x-scroll overflow-y-hidden whitespace-nowrap bg-gradient-to-r from-black to-gray-600"
+        >
+          <img
+            src="../../public/construct1.jpeg"
+            alt="construction img 1"
+            class="inline-block h-72"
+          />
+          <img
+            src="../../public/construct2.jpeg"
+            alt="construction img 2"
+            class="inline-block h-72"
+          />
+          <img
+            src="../../public/construct3.jpeg"
+            alt="construction img 3"
+            class="inline-block h-72"
+          />
+          <img
+            src="../../public/construct4.jpeg"
+            alt="construction img 4"
+            class="inline-block h-72"
+          />
+          <img
+            src="../../public/construct5.jpeg"
+            alt="construction img 5"
+            class="inline-block h-72"
+          />
+          <img
+            src="../../public/construct6.jpeg"
+            alt="construction img 6"
+            class="inline-block h-72"
+          />
+          <img
+            src="../../public/construct7.jpeg"
+            alt=""
+            class="inline-block h-72"
+          />
+          <img
+            src="../../public/construct8.jpeg"
+            alt="construction img 8"
+            class="inline-block h-72"
+          />
+          <img
+            src="../../public/construct9.jpeg"
+            alt="construction img 9"
+            class="inline-block h-72"
+          />
+        </div>
+        <p class="text-white text-center pt-2">&larr; &rarr;</p>
       </div>
+
+      <section class="flex flex-col items-center">
+        <p class="text-white h-36 text-center text-2xl font-bold pt-2">
+          Let us be the foundation for your next Home.
+        </p>
+        <p class="text-white text-center text-xl pb-6">
+          Licensed and Insured for all your needs:
+        </p>
+        <p class="text-white text-center font-bold lg:w-1/2 lg:pb-8">
+          New Homes &#8226; Decks &#8226; Roofing &#8226; Siding &#8226; Tree
+          Service &#8226; Septics &#8226; Remodeling &#8226; Additions &#8226;
+          Concrete &#8226; Excavating &#8226; Property Maintenance
+        </p>
+      </section>
+
+      <section class="pb-8 mt-8 flex flex-col items-center">
+        <h2 class="text-white text-2xl text-center mb-8">
+          Interested? Reach out to us
+        </h2>
+        <form
+          action="https://formsubmit.co/zekon84@icloud.com"
+          method="POST"
+          class="flex flex-wrap lg:w-1/2"
+        >
+          <input
+            type="text"
+            name="name"
+            required
+            placeholder="Your Name"
+            class="rounded-lg lg:p-2 w-1/4 pl-2"
+          />
+          <input
+            type="email"
+            name="email"
+            required
+            placeholder="Email"
+            class="rounded-lg lg:p-2 w-1/4 pl-2 ml-2"
+          />
+          <input type="hidden" name="_next" value="/thank-you" />
+          <textarea
+            placeholder="Your Message"
+            class="w-full rounded-lg mt-4 h-24 lg:p-2"
+            name="message"
+            required></textarea>
+          <button type="submit" class="rounded bg-white p-1 mt-4 w-24"
+            >Send</button
+          >
+        </form>
+      </section>
     </main>
+
+    <footer class="flex justify-center py-4">
+      <div class="w-11/12 h-16 border-t-2 border-white pt-2">
+        <p class="text-white text-xs">Zekon LLC General Contractors</p>
+        <p class="text-white text-xs">Licensed and Insured</p>
+        <p class="text-white text-xs">General Manager &#8226; Troy Pitts</p>
+        <p class="text-white text-xs"></p>
+      </div>
+    </footer>
   </body>
 </html>
